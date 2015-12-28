@@ -1,0 +1,80 @@
+html{
+	font-family: 'Noto Sans', sans-serif;
+	color: #666666;
+}
+
+
+
+@media screen and (max-width: 460px){
+	body{
+		font-size: 10pt;
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 461px) and (max-width: 700px){
+	body{
+		font-size: 14pt;
+	}
+}
+
+@media screen and (min-width: 800px){
+	body{
+		max-width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 16pt;
+	}
+}
+
+.header-title{
+	font-size: 26pt;
+	font-family: 'Armio', sans-serif;
+	font-weight: 500;
+}
+
+.header-title a {
+	text-decoration: none;
+	color: #7d1a10;
+}
+
+.subtitle{
+	font-size: 12pt;
+	font-family: 'Noto Sans', sans-serif;
+	color: #666666;
+}
+
+.menu{
+	border-top: 1px solid #e9a099;
+	border-bottom: 1px solid #e9a099;
+	margin: 0px 10px 0px 10px;
+	min-height: 48px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center; /* align horizontal */
+	align-items: center;
+	text-align: center;
+}
+
+.menu-item{
+	width: calc(100%/4); /*divide by the # of menu items! */
+}
+
+.menu-item a{
+	color: #666666;
+	text-decoration: none;
+}
+
+.self-photo{
+	display: block;
+	margin: 0 auto 10px auto;
+	max-width: 50%;
+	min-width: 200px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+main{
+	padding: 10px;
+}

@@ -1,0 +1,85 @@
+body{
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+header{
+	padding: 20px 0px 20px 0px;
+	border-bottom: 3px #BCBBBB solid;
+	display: flex; 
+}
+
+.headerLogo{
+	order: 0;
+	width: 10%;
+	max-height: 60px;
+}
+
+.name{
+	width: 90%;
+	order: 1;
+}
+
+.headerTitle{
+	width: 100%;
+	font-size: 26pt;
+	font-family: Arial;
+	text-align: right;
+	color: #666756;
+}
+
+.subTitle{
+	width: 100%;
+	font-size: 14pt;
+	font-family: Arial;
+	text-align: right;
+	color: #666756;
+}
+
+.front-page-content{
+	padding: 20px 0px 10px 0px;
+}
+
+.front-page-image{
+	width: 100%;
+}
+
+.portfolio{
+	display: flex;
+	flex-direction: row;
+}
+
+h1{
+	color: #AAAAAA;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 20pt;
+	text-indent: 10px;
+	width: 100%;
+	order: 0;
+}
+
+.project{
+	width: calc(100%/3 - 10px);
+	padding: 0px 5px 0px 5px;
+	text-align: center;
+}
+
+.project-image{
+	width: 100%;
+}
+
+.projectTitle{
+	font-family: Arial;
+	font-size: 16pt;
+	color: #666756;
+}
+
+.project a{
+	font-family: Arial;
+	font-size: 8pt;
+	color: #666756;
+	width: 100%;
+}

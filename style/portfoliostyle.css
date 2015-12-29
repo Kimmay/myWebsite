@@ -1,12 +1,12 @@
-.portfolio-title{
+.portfolio-title {
 	font-size: 20pt;
-	font-family: 'Armio', sans-serif;
+	font-family: "Armio", sans-serif;
 	font-weight: 500;
 	color: #7d1a10;
 	padding: 20px 0px 10px 0px;
 }
 
-.projectlist{
+.projectlist {
 	width: 100%;
 	display: flex;
 	justify-content: center;
@@ -16,30 +16,35 @@
 
 }
 
-section{
+section {
 	padding: 10px;
 }
 
-@media screen and (max-width: 799px){
-	section{
+@media screen and (max-width: 799px) {
+	section {
 		width: 100%;
 	}
 
 }
 
-@media screen and (min-width: 800px){
-	section{
-		width: calc(100%/2 - 20px);
+@media screen and (min-width: 800px) {
+	section {
+		width: calc(100%/2 - 40px);
 	}
 }
 
-section a{
+section a {
 	text-decoration: none;
 }
 
-section h1{
+section h1 {
 	font-size: 16pt;
 	color: #7d1a10;
-	font-family: 'Armio', sans-serif;
+	font-family: "Armio", sans-serif;
 	font-weight: 500;
+}
+
+.projectimg {
+	width: 100%;
+	margin-left: 0px auto 0px auto;
 }

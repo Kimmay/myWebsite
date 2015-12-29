@@ -47,7 +47,6 @@ html{
 .menu{
 	border-top: 1px solid #e9a099;
 	border-bottom: 1px solid #e9a099;
-	margin: 0px 10px 0px 10px;
 	min-height: 48px;
 	display: flex;
 	flex-direction: row;
@@ -77,4 +76,34 @@ html{
 
 main{
 	padding: 10px;
+}
+
+footer{
+	margin-top: 20px;
+}
+
+.bottom-liner{
+	width: 100%;
+	height: 1px;
+	background-color: #e9a099;
+}
+
+#social-media{
+	font-size: 12pt;
+	display: flex;
+	flex-flow: row;
+	justify-content: center; /* align horizontal */
+	align-items: center;
+	text-align: center;
+	margin: 20px 0px 0px 0px;
+}
+
+.social-media-box{
+	width: calc(100%/2 - 20px); /* divide by the # of media items! */
+	padding: 0px 10px 0px 10px;
+	font-size: 24pt;
+}
+
+.social-media-box{
+	text-decoration: none;
 }

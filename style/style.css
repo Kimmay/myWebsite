@@ -97,6 +97,14 @@ main {
 	padding: 10px;
 }
 
+.images {
+	border-top: 1px solid #e9a099;
+}
+
+.projectimg {
+	max-width: 100%;
+}
+
 footer {
 	margin-top: 20px;
 }
